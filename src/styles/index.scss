@@ -11,3 +11,49 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.red-light {
+    height:100px; 
+    width:100px; 
+    border-radius: 100%;
+    background-color: red; 
+    // align-self: flex-start;
+}
+
+.yellow-light {
+    height:100px; 
+    width:100px; 
+    border-radius: 100%;
+    background-color: yellow; 
+    // align-self: center;
+}
+
+.green-light {
+    height:100px; 
+    width:100px; 
+    border-radius: 100%;
+    background-color: green; 
+    // align-self: flex-end;
+}
+
+.background {
+    width:150px;
+    height:320px;
+    background-color:black;
+    margin:auto;
+}
+
+.stick {
+    width:30px; 
+    height: 100px; 
+    background-color:black;
+    display: flex;
+    margin: auto;
+}
+
+.selected {
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(255, 255, 50, 1);
+    -moz-box-shadow:    0px 0px 30px 0px rgba(255, 255, 50, 1);
+    box-shadow:         0px 0px 30px 0px rgba(255, 255, 50, 1);
+}
+
